@@ -1,0 +1,22 @@
+{
+  "files.associations": {
+    "*.jsx": "javascriptreact"
+  },
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "javascript.format.enable": false,
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/node_modules/*/**": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#e7ff4c",
+    "statusBar.foreground": "#222225"
+  },
+  "window.title": "${rootName}${separator}${activeEditorShort}"
+}
