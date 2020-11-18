@@ -14,8 +14,8 @@
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src --color",
     "format": "prettier --write 'src/**/*.{ts,tsx,scss,css,json}'",
     "isready": "npm run format && npm run lint && npm run build",
-    "publish-patch": "yarn isready && yarn version --patch && npm publish",
-    "publish-minor": "yarn isready && yarn version --minor && npm publish"
+    "publish-patch": "npm run isready && npm version patch && npm publish",
+    "publish-minor": "npm run isready && npm version minor && npm publish"
   },
   "author": "feralamillo",
   "license": "ISC",
